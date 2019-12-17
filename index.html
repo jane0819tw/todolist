@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>todo-list</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="m-5" id="my-list">
+    <header class="mb-3">
+      <h4><span class="fa fa-pencil"></span>My Todo</h4>
+      <div class="d-flex">
+        <input type="text" placeholder="add item" id="newTodo" class="form-control mr-2">
+        <button id="addBtn" class="btn btn-info">Add</button>
+      </div>
+      <p class="alert-word"></p>
+    </header>
+    <div id="panels" class="d-flex">
+      <div id="todo-panel">
+        <h4>Todo</h4>
+        <ul id="my-todo" class="list-unstyled">
+
+        </ul>
+      </div>
+      <div id="done-panel">
+        <h4>Done</h4>
+        <ul id="my-done" class="list-unstyled">
+
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</body>
+<script src="main.js"></script>
+
+</html>

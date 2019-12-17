@@ -1,0 +1,75 @@
+* {
+/*   border: 1px solid #000; */
+  letter-spacing: 1px;
+}
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1A185B;
+  
+}
+
+#my-list{
+  width: 450px;
+  min-height: 350px;
+  background-color: #FFC857;
+  padding: 2rem;
+}
+#panels>div{
+  width: 100%;
+  padding: 5px;
+}
+#my-todo li label{
+  cursor: pointer;
+  
+}
+
+.flex-0 {
+  flex: 0;
+}
+.flex-1 {
+  flex: 1;
+}
+
+li{
+  display: flex;
+  border-bottom: 1px solid #000;
+  margin-top: 5px;
+}
+li>label[for='todo'] {
+  width: 100%;
+  
+}
+.alert-word {
+  font-weight: 700;
+  
+}
+.checked {
+  color: #eee;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+i {
+  margin: 0 5px;
+  color: #eee;
+  cursor: pointer;
+}
+i:hover {
+  color:#f24;
+  transition: 0.5s;
+}
+li label {
+  /*   強迫不換行 */
+  white-space: nowrap;
+}
+
+
+
+
+
